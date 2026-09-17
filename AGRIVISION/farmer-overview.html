@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AGRIVISION | Farmer Overview</title>
+    <link rel="stylesheet" href="farmer-style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">🌱</div>
+          <div>
+            <h3>AGRIVISION</h3>
+            <p>Farmer Hub</p>
+          </div>
+        </div>
+        <nav>
+          <a class="active" href="farmer-overview.html">Overview</a>
+          <a href="farmer-weather.html">Weather</a>
+          <a href="farmer-crop.html">Crop Advice</a>
+          <a href="farmer-market.html">Market</a>
+          <a href="farmer-schemes.html">Schemes</a>
+        </nav>
+      </aside>
+      <main class="main-content">
+        <header class="topbar">
+          <label class="search-box"><span>🔎</span><input type="text" placeholder="Search farm insights" /></label>
+          <div class="topbar-actions">
+            <button class="icon-btn" id="themeToggle" type="button">🌙</button>
+            <button class="icon-btn" type="button">🔔</button>
+            <div class="profile-menu">
+              <div class="avatar">F</div>
+              <div><strong>Farmer</strong><p>Ramesh Kumar</p></div>
+            </div>
+          </div>
+        </header>
+
+        <section class="hero-grid">
+          <article class="card hero-card">
+            <p class="eyebrow">Today’s Farm Status</p>
+            <h1>Healthy field conditions with strong growth potential.</h1>
+            <p>AI insights show excellent irrigation balance and low disease risk.</p>
+            <div class="hero-actions">
+              <a class="btn btn-dark" href="farmer-crop.html">View Crop Advice</a>
+              <a class="btn btn-light" href="farmer-weather.html">Check Weather</a>
+            </div>
+          </article>
+          <article class="card stat-card">
+            <div><span>Crop Health Score</span><strong>92%</strong></div>
+            <div><span>Irrigation Status</span><strong>Optimal</strong></div>
+            <div><span>Pest Alerts</span><strong>2 Low Risk</strong></div>
+          </article>
+        </section>
+
+        <section class="stats-grid">
+          <article class="card"><h3>Weather Overview</h3><p>Sunny • 28°C • 58% humidity</p></article>
+          <article class="card"><h3>Soil Health</h3><p>Moisture 68% • pH 6.7 • Nutrient-rich</p></article>
+          <article class="card"><h3>Market Price Highlights</h3><p>Wheat ₹2140 • Rice ₹3110</p></article>
+          <article class="card"><h3>Recent Activities</h3><p>3 new alerts • 1 irrigation update</p></article>
+        </section>
+
+        <section class="content-grid">
+          <article class="card">
+            <h3>Quick Actions</h3>
+            <div class="quick-actions">
+              <a href="farmer-crop.html" class="pill">🌾 Crop Advice</a>
+              <a href="farmer-weather.html" class="pill">🌦️ Weather</a>
+              <a href="farmer-market.html" class="pill">📈 Market</a>
+              <a href="farmer-schemes.html" class="pill">🏛️ Schemes</a>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Growth Progress</h3>
+            <div class="progress-stack">
+              <div><span>Crop Growth</span><div class="progress"><div style="width: 88%"></div></div></div>
+              <div><span>Irrigation Efficiency</span><div class="progress"><div style="width: 76%"></div></div></div>
+              <div><span>Yield Forecast</span><div class="progress"><div style="width: 92%"></div></div></div>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+    <script src="farmer-script.js"></script>
+  </body>
+</html>

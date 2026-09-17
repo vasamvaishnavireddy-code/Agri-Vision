@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AGRIVISION | Farmer Crop Advice</title>
+    <link rel="stylesheet" href="farmer-style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand"><div class="brand-mark">🌱</div><div><h3>AGRIVISION</h3><p>Farmer Hub</p></div></div>
+        <nav>
+          <a href="farmer-overview.html">Overview</a>
+          <a href="farmer-weather.html">Weather</a>
+          <a class="active" href="farmer-crop.html">Crop Advice</a>
+          <a href="farmer-market.html">Market</a>
+          <a href="farmer-schemes.html">Schemes</a>
+        </nav>
+      </aside>
+      <main class="main-content">
+        <header class="topbar"><label class="search-box"><span>🔎</span><input type="text" placeholder="Search crop advice" /></label><div class="topbar-actions"><button class="icon-btn" id="themeToggle" type="button">🌙</button><button class="icon-btn" type="button">🔔</button><div class="profile-menu"><div class="avatar">F</div><div><strong>Farmer</strong><p>Ramesh Kumar</p></div></div></div></header>
+        <section class="hero-grid">
+          <article class="card hero-card"><p class="eyebrow">AI Crop Recommendations</p><h1>Tomato and paddy are ideal for your soil profile.</h1><p>Recommendation engine suggests balanced irrigation and nutrient dosing.</p><div class="hero-actions"><a class="btn btn-dark" href="#">Upload Crop Image</a><a class="btn btn-light" href="#">Run Diagnosis</a></div></article>
+          <article class="card stat-card"><div><span>Disease Diagnosis</span><strong>Low Risk</strong></div><div><span>Pest Detection</span><strong>Monitor</strong></div><div><span>Fertilizer Fit</span><strong>Balanced</strong></div></article>
+        </section>
+        <section class="stats-grid">
+          <article class="card"><h3>Fertilizer Recommendations</h3><p>NPK 6:8:8 for current field stage.</p></article>
+          <article class="card"><h3>Irrigation Suggestions</h3><p>Water at dawn every 3rd day.</p></article>
+          <article class="card"><h3>Best Sowing & Harvesting Time</h3><p>Sow by 15 July • Harvest by 25 October.</p></article>
+          <article class="card"><h3>Soil Nutrient Analysis</h3><p>Phosphorus is slightly below target.</p></article>
+        </section>
+        <section class="content-grid">
+          <article class="card"><h3>Image Upload for Disease Detection</h3><div class="upload-box">📷 Drag or upload crop leaf image</div></article>
+          <article class="card"><h3>Preventive Measures & Practices</h3><ul class="list"><li>Rotate crops every season</li><li>Apply herbicide only after warning</li><li>Use mulch to retain moisture</li></ul></article>
+        </section>
+      </main>
+    </div>
+    <script src="farmer-script.js"></script>
+  </body>
+</html>

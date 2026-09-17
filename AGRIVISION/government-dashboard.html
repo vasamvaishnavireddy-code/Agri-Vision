@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AGRIVISION | Government Dashboard</title>
+    <link rel="stylesheet" href="government-dashboard.css" />
+    <link rel="stylesheet" href="dashboard-modules.css" />
+  </head>
+  <body data-role="government">
+    <div class="app-shell">
+      <aside class="sidebar"><div class="brand"><div class="brand-mark">🏛️</div><div><h3>AGRIVISION</h3><p>Government Hub</p></div></div><nav><a class="active" href="#">Overview</a><a href="#">Schemes</a><a href="#">Applications</a><a href="#">Reports</a><a href="#">Statistics</a></nav></aside>
+      <main class="main-content">
+        <header class="topbar"><label class="search-box"><span>🔎</span><input type="text" placeholder="Search schemes, applications" /></label><div class="topbar-actions"><button class="icon-btn" id="themeToggle" type="button">🌙</button><button class="icon-btn" type="button">🔔</button><div class="profile-menu"><div class="avatar">G</div><div><strong id="profileName">Officer</strong><p id="profileRole">Role</p></div></div></div></header>
+        <section class="hero-grid"><article class="hero-card glass-card"><p class="eyebrow">Public Program Command</p><h1>Oversee schemes, applications, and impact</h1><p>Manage farmer requests and distribution programs efficiently.</p><button class="btn btn-dark">Open Scheme Dashboard</button></article><article class="hero-card glass-card stats-card"><div><span>Applications</span><strong>120</strong></div><div><span>Verified</span><strong>96</strong></div><div><span>Subsidies</span><strong>₹8.6L</strong></div></article></section>
+        <section class="dashboard-grid"><article class="card glass-card"><h3>Government Schemes</h3><p>Review active and upcoming public schemes.</p></article><article class="card glass-card"><h3>Farmer Applications</h3><p>Track applicant requests and eligibility data.</p></article><article class="card glass-card"><h3>Scheme Verification</h3><p>Validate identities and eligibility documents.</p></article><article class="card glass-card"><h3>Subsidy Management</h3><p>Manage subsidies and transfer approvals.</p></article><article class="card glass-card"><h3>Reports</h3><p>Generate district and program-wise reports.</p></article><article class="card glass-card"><h3>Agriculture Statistics</h3><p>Monitor crop, weather, and productivity metrics.</p></article><article class="card glass-card"><h3>Announcements</h3><p>Publish alerts, advisories, and updates.</p></article></section>
+      </main>
+    </div>
+    <script src="dashboard-modules.js"></script>
+    <script src="government-dashboard.js"></script>
+  </body>
+</html>

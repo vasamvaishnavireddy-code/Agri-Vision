@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AGRIVISION | Farmer Market</title>
+    <link rel="stylesheet" href="farmer-style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand"><div class="brand-mark">🌱</div><div><h3>AGRIVISION</h3><p>Farmer Hub</p></div></div>
+        <nav>
+          <a href="farmer-overview.html">Overview</a>
+          <a href="farmer-weather.html">Weather</a>
+          <a href="farmer-crop.html">Crop Advice</a>
+          <a class="active" href="farmer-market.html">Market</a>
+          <a href="farmer-schemes.html">Schemes</a>
+        </nav>
+      </aside>
+      <main class="main-content">
+        <header class="topbar"><label class="search-box"><span>🔎</span><input type="text" placeholder="Search market prices" /></label><div class="topbar-actions"><button class="icon-btn" id="themeToggle" type="button">🌙</button><button class="icon-btn" type="button">🔔</button><div class="profile-menu"><div class="avatar">F</div><div><strong>Farmer</strong><p>Ramesh Kumar</p></div></div></div></header>
+        <section class="hero-grid">
+          <article class="card hero-card"><p class="eyebrow">Live Market Prices</p><h1>Tomato rates are favorable near the district mandi.</h1><p>AI suggests selling at 11:00 AM for maximum price realization.</p><div class="hero-actions"><a class="btn btn-dark" href="#">Sell Crops</a><a class="btn btn-light" href="#">Compare Markets</a></div></article>
+          <article class="card stat-card"><div><span>Nearby Markets</span><strong>3 Active</strong></div><div><span>Demand Analysis</span><strong>High</strong></div><div><span>AI Prediction</span><strong>+7%</strong></div></article>
+        </section>
+        <section class="stats-grid">
+          <article class="card"><h3>Price Comparison</h3><p>Market A ₹2,140 • Market B ₹2,080</p></article>
+          <article class="card"><h3>Daily Market Trends</h3><p>Rice demand is climbing this week.</p></article>
+          <article class="card"><h3>Best Selling Locations</h3><p>Rural mandi, wholesale hub, and cooperative center.</p></article>
+          <article class="card"><h3>Recent Transactions</h3><p>2 sales completed successfully this week.</p></article>
+        </section>
+        <section class="content-grid">
+          <article class="card"><h3>Buy & Sell Section</h3><p>List your produce or browse buyer requests.</p></article>
+          <article class="card"><h3>Market News & Updates</h3><ul class="list"><li>Fuel costs impact transport margins</li><li>Cold storage demand rises for tomatoes</li><li>Government procurement window opens soon</li></ul></article>
+        </section>
+      </main>
+    </div>
+    <script src="farmer-script.js"></script>
+  </body>
+</html>

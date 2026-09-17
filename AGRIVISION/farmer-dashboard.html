@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AGRIVISION | Farmer Dashboard</title>
+    <link rel="stylesheet" href="farmer-dashboard.css" />
+    <link rel="stylesheet" href="dashboard-modules.css" />
+  </head>
+  <body data-role="farmer">
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">🌱</div>
+          <div>
+            <h3>AGRIVISION</h3>
+            <p>Farmer Hub</p>
+          </div>
+        </div>
+        <nav>
+          <a class="active" href="#">Overview</a>
+          <a href="#">Weather</a>
+          <a href="#">Crop Advice</a>
+          <a href="#">Market</a>
+          <a href="#">Schemes</a>
+        </nav>
+      </aside>
+      <main class="main-content">
+        <header class="topbar">
+          <label class="search-box"><span>🔎</span><input type="text" placeholder="Search farms, crops, services" /></label>
+          <div class="topbar-actions">
+            <button class="icon-btn" id="themeToggle" type="button">🌙</button>
+            <button class="icon-btn" type="button">🔔</button>
+            <div class="profile-menu">
+              <div class="avatar">F</div>
+              <div>
+                <strong id="profileName">Farmer</strong>
+                <p id="profileRole">Role</p>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <section class="hero-grid">
+          <article class="hero-card glass-card">
+            <p class="eyebrow">Today’s Field Summary</p>
+            <h1>Healthy planning for better yields</h1>
+            <p>Monitor weather, irrigation, and crop health in one place.</p>
+            <button class="btn btn-dark">Open Crop Planner</button>
+          </article>
+          <article class="hero-card glass-card stats-card">
+            <div><span>Yield Forecast</span><strong>87%</strong></div>
+            <div><span>Expense Health</span><strong>₹24K</strong></div>
+            <div><span>Market Trend</span><strong>Rising</strong></div>
+          </article>
+        </section>
+
+        <section class="dashboard-grid">
+          <article class="card glass-card">
+            <h3>Weather</h3>
+            <p>Sunny • 28°C • Low humidity</p>
+          </article>
+          <article class="card glass-card">
+            <h3>Crop Recommendation</h3>
+            <p>Recommended crop: Tomato with irrigation support.</p>
+          </article>
+          <article class="card glass-card">
+            <h3>Crop Calendar</h3>
+            <p>Planting window opens tomorrow morning.</p>
+          </article>
+          <article class="card glass-card">
+            <h3>Disease Detection</h3>
+            <p>Leaf anomaly detected. Use preventive treatment.</p>
+          </article>
+          <article class="card glass-card">
+            <h3>Pest Detection</h3>
+            <p>Early signs of aphids reported in the west sector.</p>
+          </article>
+          <article class="card glass-card">
+            <h3>Soil Health</h3>
+            <p>Soil pH and nutrient balance are optimal.</p>
+          </article>
+          <article class="card glass-card">
+            <h3>Smart Irrigation</h3>
+            <p>Irrigation schedule optimized for 6:30 AM.</p>
+          </article>
+          <article class="card glass-card">
+            <h3>Market Prices</h3>
+            <p>Wheat ₹2140/q • Rice ₹3110/q</p>
+          </article>
+          <article class="card glass-card">
+            <h3>Sell Crops</h3>
+            <p>List produce for direct buyer connection.</p>
+          </article>
+          <article class="card glass-card">
+            <h3>Equipment Rental</h3>
+            <p>Book tractor and sprayer instantly.</p>
+          </article>
+          <article class="card glass-card">
+            <h3>Government Schemes</h3>
+            <p>PM-KISAN updates and subsidy alerts active.</p>
+          </article>
+          <article class="card glass-card">
+            <h3>AI Yield Prediction</h3>
+            <p>Expected yield: 24 quintals/hectare.</p>
+          </article>
+          <article class="card glass-card">
+            <h3>Farm Expenses</h3>
+            <p>Seed, labor, and transport costs tracked.</p>
+          </article>
+          <article class="card glass-card">
+            <h3>Notifications</h3>
+            <p>4 new alerts from advisory and market systems.</p>
+          </article>
+        </section>
+      </main>
+    </div>
+    <script src="dashboard-modules.js"></script>
+    <script src="farmer-dashboard.js"></script>
+  </body>
+</html>

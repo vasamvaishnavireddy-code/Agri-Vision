@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AGRIVISION | Retailer Dashboard</title>
+    <link rel="stylesheet" href="retailer-dashboard.css" />
+    <link rel="stylesheet" href="dashboard-modules.css" />
+  </head>
+  <body data-role="retailer">
+    <div class="app-shell">
+      <aside class="sidebar"><div class="brand"><div class="brand-mark">🏪</div><div><h3>AGRIVISION</h3><p>Retailer Hub</p></div></div><nav><a class="active" href="#">Overview</a><a href="#">Buy Products</a><a href="#">Orders</a><a href="#">Inventory</a><a href="#">Payments</a></nav></aside>
+      <main class="main-content">
+        <header class="topbar"><label class="search-box"><span>🔎</span><input type="text" placeholder="Search products, suppliers" /></label><div class="topbar-actions"><button class="icon-btn" id="themeToggle" type="button">🌙</button><button class="icon-btn" type="button">🔔</button><div class="profile-menu"><div class="avatar">R</div><div><strong id="profileName">Retailer</strong><p id="profileRole">Role</p></div></div></div></header>
+        <section class="hero-grid"><article class="hero-card glass-card"><p class="eyebrow">Retail Commerce Center</p><h1>Source reliably and move inventory faster</h1><p>Track wholesale demand and supplier performance.</p><button class="btn btn-dark">Buy Products</button></article><article class="hero-card glass-card stats-card"><div><span>Open Orders</span><strong>24</strong></div><div><span>Inventory Units</span><strong>150</strong></div><div><span>Payments</span><strong>₹4.2L</strong></div></article></section>
+        <section class="dashboard-grid"><article class="card glass-card"><h3>Buy Products</h3><p>Buy fresh produce and agri-inputs in bulk.</p></article><article class="card glass-card"><h3>Wholesale Orders</h3><p>Manage high-volume purchasing requests.</p></article><article class="card glass-card"><h3>Order Tracking</h3><p>Monitor shipment and delivery status.</p></article><article class="card glass-card"><h3>Supplier Directory</h3><p>Find dependable vendors and partners.</p></article><article class="card glass-card"><h3>Inventory</h3><p>Keep stock counts and replenishment in sync.</p></article><article class="card glass-card"><h3>Payment History</h3><p>Review payments, invoices, and settlements.</p></article><article class="card glass-card"><h3>Sales Reports</h3><p>Track demand, margin, and growth trends.</p></article></section>
+      </main>
+    </div>
+    <script src="dashboard-modules.js"></script>
+    <script src="retailer-dashboard.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AGRIVISION | Farmer Weather</title>
+    <link rel="stylesheet" href="farmer-style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand"><div class="brand-mark">🌱</div><div><h3>AGRIVISION</h3><p>Farmer Hub</p></div></div>
+        <nav>
+          <a href="farmer-overview.html">Overview</a>
+          <a class="active" href="farmer-weather.html">Weather</a>
+          <a href="farmer-crop.html">Crop Advice</a>
+          <a href="farmer-market.html">Market</a>
+          <a href="farmer-schemes.html">Schemes</a>
+        </nav>
+      </aside>
+      <main class="main-content">
+        <header class="topbar"><label class="search-box"><span>🔎</span><input type="text" placeholder="Search weather insights" /></label><div class="topbar-actions"><button class="icon-btn" id="themeToggle" type="button">🌙</button><button class="icon-btn" type="button">🔔</button><div class="profile-menu"><div class="avatar">F</div><div><strong>Farmer</strong><p>Ramesh Kumar</p></div></div></div></header>
+        <section class="hero-grid">
+          <article class="card hero-card"><p class="eyebrow">Current Weather</p><h1>Sunny and ideal for field activities</h1><p>28°C • Rain probability 8% • Humidity 58%</p><div class="hero-actions"><a class="btn btn-dark" href="#">View Forecast</a><a class="btn btn-light" href="farmer-crop.html">Crop Guidance</a></div></article>
+          <article class="card stat-card"><div><span>Temperature</span><strong>28°C</strong></div><div><span>Rain Probability</span><strong>8%</strong></div><div><span>Wind Speed</span><strong>12 km/h</strong></div></article>
+        </section>
+        <section class="stats-grid">
+          <article class="card"><h3>7-Day Forecast</h3><p>Mon: 29°C • Tue: 30°C • Wed: 27°C</p></article>
+          <article class="card"><h3>Humidity</h3><p>58% with mild morning dew.</p></article>
+          <article class="card"><h3>UV Index</h3><p>Moderate • Apply sun protection for field work.</p></article>
+          <article class="card"><h3>Sunrise & Sunset</h3><p>06:12 AM • 06:48 PM</p></article>
+        </section>
+        <section class="content-grid">
+          <article class="card"><h3>Weather Alerts</h3><ul class="list"><li>Low frost risk tonight</li><li>Light wind expected after noon</li><li>Good window for irrigation</li></ul></article>
+          <article class="card"><h3>AI Farming Recommendations</h3><p>Use the morning window for spraying and irrigation. Delay heavy fertilizer application due to low humidity.</p></article>
+        </section>
+      </main>
+    </div>
+    <script src="farmer-script.js"></script>
+  </body>
+</html>

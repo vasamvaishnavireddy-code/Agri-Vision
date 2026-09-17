@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AGRIVISION | Logistics Dashboard</title>
+    <link rel="stylesheet" href="logistics-dashboard.css" />
+    <link rel="stylesheet" href="dashboard-modules.css" />
+  </head>
+  <body data-role="logistics">
+    <div class="app-shell">
+      <aside class="sidebar"><div class="brand"><div class="brand-mark">🚚</div><div><h3>AGRIVISION</h3><p>Logistics Hub</p></div></div><nav><a class="active" href="#">Overview</a><a href="#">Booking</a><a href="#">Drivers</a><a href="#">Tracking</a><a href="#">Warehouses</a></nav></aside>
+      <main class="main-content">
+        <header class="topbar"><label class="search-box"><span>🔎</span><input type="text" placeholder="Search routes, deliveries" /></label><div class="topbar-actions"><button class="icon-btn" id="themeToggle" type="button">🌙</button><button class="icon-btn" type="button">🔔</button><div class="profile-menu"><div class="avatar">L</div><div><strong id="profileName">Logistics</strong><p id="profileRole">Role</p></div></div></div></header>
+        <section class="hero-grid"><article class="hero-card glass-card"><p class="eyebrow">Fleet Command</p><h1>Deliver faster with smarter routing</h1><p>Track bookings, driver movement, cold storage needs, and warehouse capacity.</p><button class="btn btn-dark">Create Transport Booking</button></article><article class="hero-card glass-card stats-card"><div><span>Open Loads</span><strong>16</strong></div><div><span>Drivers Active</span><strong>9</strong></div><div><span>Completed</span><strong>42</strong></div></article></section>
+        <section class="dashboard-grid"><article class="card glass-card"><h3>Transport Booking</h3><p>Take new transport requests and assign vehicles.</p></article><article class="card glass-card"><h3>Driver Management</h3><p>Monitor performance, availability, and shifts.</p></article><article class="card glass-card"><h3>Delivery Tracking</h3><p>Track live route and ETA updates.</p></article><article class="card glass-card"><h3>Warehouse Booking</h3><p>Reserve storage capacity for inventory.</p></article><article class="card glass-card"><h3>Cold Storage</h3><p>Ensure temperature-sensitive cargo safety.</p></article><article class="card glass-card"><h3>Route Optimization</h3><p>Use smart routing for faster delivery cycles.</p></article><article class="card glass-card"><h3>Completed Deliveries</h3><p>Review delivery history and milestones.</p></article></section>
+      </main>
+    </div>
+    <script src="dashboard-modules.js"></script>
+    <script src="logistics-dashboard.js"></script>
+  </body>
+</html>

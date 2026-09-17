@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AGRIVISION | Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="dashboard-page">
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="sidebar-brand">
+          <div class="brand-mark">🌱</div>
+          <div>
+            <h3>AGRIVISION</h3>
+            <p>Connected Agriculture</p>
+          </div>
+        </div>
+
+        <nav class="sidebar-nav">
+          <a class="active" href="#">Overview</a>
+          <a href="#">Weather</a>
+          <a href="#">Markets</a>
+          <a href="#">Schemes</a>
+          <a href="#">Services</a>
+        </nav>
+
+        <div class="sidebar-card">
+          <p class="eyebrow light">Current Role</p>
+          <h4 id="sidebarRole">Farmer</h4>
+          <p id="sidebarRoleHint">Adaptive productivity workspace</p>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <header class="topbar">
+          <label class="search-box">
+            <span>🔎</span>
+            <input type="text" placeholder="Search crops, markets, services..." />
+          </label>
+          <div class="topbar-actions">
+            <button class="icon-btn" id="themeToggle" type="button">🌙</button>
+            <button class="icon-btn" type="button">🔔</button>
+            <div class="profile-menu">
+              <div class="avatar">A</div>
+              <div>
+                <strong id="profileName">Aarav</strong>
+                <p id="profileRole">Farmer</p>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <section class="stats-grid">
+          <article class="stat-card glass-card">
+            <p>Yield Index</p>
+            <h3>87%</h3>
+            <span>+12% this week</span>
+          </article>
+          <article class="stat-card glass-card">
+            <p>Market Pulse</p>
+            <h3>₹2,140</h3>
+            <span>Wheat avg. today</span>
+          </article>
+          <article class="stat-card glass-card">
+            <p>Active Alerts</p>
+            <h3>14</h3>
+            <span>3 high priority</span>
+          </article>
+          <article class="stat-card glass-card">
+            <p>Service Reach</p>
+            <h3>92 km</h3>
+            <span>Nearby support</span>
+          </article>
+        </section>
+
+        <section class="dashboard-grid">
+          <div class="column-stack">
+            <article class="widget-card glass-card">
+              <div class="widget-header">
+                <div>
+                  <p class="eyebrow">Current Weather</p>
+                  <h3>Sunny, 28°C</h3>
+                </div>
+                <span class="pill">Ideal for field work</span>
+              </div>
+              <div class="weather-row">
+                <div class="weather-main">☀️</div>
+                <ul>
+                  <li>Humidity: 58%</li>
+                  <li>Wind: 12 km/h</li>
+                  <li>Rain chance: 8%</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="widget-card glass-card">
+              <div class="widget-header">
+                <div>
+                  <p class="eyebrow">Live Market Prices</p>
+                  <h3>Commodity Snapshot</h3>
+                </div>
+                <span class="pill success">Updated 2 min ago</span>
+              </div>
+              <div class="price-list">
+                <div><span>Wheat</span><strong>₹2,140/q</strong></div>
+                <div><span>Rice</span><strong>₹3,110/q</strong></div>
+                <div><span>Tomato</span><strong>₹1,860/q</strong></div>
+              </div>
+            </article>
+
+            <article class="widget-card glass-card">
+              <div class="widget-header">
+                <div>
+                  <p class="eyebrow">Trending Crops</p>
+                  <h3>Demand Momentum</h3>
+                </div>
+              </div>
+              <div class="chart-card">
+                <div class="bar-chart">
+                  <div class="bar" style="height: 68%"></div>
+                  <div class="bar" style="height: 82%"></div>
+                  <div class="bar" style="height: 74%"></div>
+                  <div class="bar" style="height: 90%"></div>
+                </div>
+                <div class="chart-labels">
+                  <span>Maize</span>
+                  <span>Rice</span>
+                  <span>Tomato</span>
+                  <span>Pulse</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="column-stack">
+            <article class="widget-card glass-card">
+              <div class="widget-header">
+                <div>
+                  <p class="eyebrow">Quick Actions</p>
+                  <h3>Speed up workflows</h3>
+                </div>
+              </div>
+              <div class="quick-action-grid">
+                <div class="action-pill">📋 New Report</div>
+                <div class="action-pill">🧾 Submit Claim</div>
+                <div class="action-pill">💬 Connect Partner</div>
+                <div class="action-pill">📦 Track Orders</div>
+              </div>
+            </article>
+
+            <article class="widget-card glass-card">
+              <div class="widget-header">
+                <div>
+                  <p class="eyebrow">Notifications</p>
+                  <h3>Today’s updates</h3>
+                </div>
+              </div>
+              <ul class="list-stack">
+                <li>Weather advisory issued for your district</li>
+                <li>New market demand spike for pulses</li>
+                <li>Government subsidy window opens tomorrow</li>
+              </ul>
+            </article>
+
+            <article class="widget-card glass-card">
+              <div class="widget-header">
+                <div>
+                  <p class="eyebrow">Recent Activity</p>
+                  <h3>Latest actions</h3>
+                </div>
+              </div>
+              <ul class="list-stack">
+                <li>Crop assessment submitted</li>
+                <li>Marketplace request accepted</li>
+                <li>Service appointment confirmed</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="widget-grid">
+          <article class="widget-card glass-card">
+            <div class="widget-header">
+              <div>
+                <p class="eyebrow">Government of India Scheme Highlights</p>
+                <h3>Support programs</h3>
+              </div>
+            </div>
+            <ul class="list-stack">
+              <li>PM-KISAN: ₹6,000 annual support for eligible farmers</li>
+              <li>FPO Scheme: stronger aggregation and market access</li>
+              <li>Soil Health Card: tailored nutrient guidance</li>
+            </ul>
+          </article>
+
+          <article class="widget-card glass-card">
+            <div class="widget-header">
+              <div>
+                <p class="eyebrow">Agriculture News</p>
+                <h3>Industry highlights</h3>
+              </div>
+            </div>
+            <ul class="list-stack">
+              <li>New cold-chain expansion boosts perishables movement</li>
+              <li>Digital crop insurance adoption gains momentum</li>
+              <li>Agri-tech clusters accelerate regenerative farming</li>
+            </ul>
+          </article>
+
+          <article class="widget-card glass-card">
+            <div class="widget-header">
+              <div>
+                <p class="eyebrow">Nearby Services</p>
+                <h3>Community support</h3>
+              </div>
+            </div>
+            <ul class="list-stack">
+              <li>Agri-input store • 2 km away</li>
+              <li>Cold storage • 5 km away</li>
+              <li>Veterinary clinic • 7 km away</li>
+            </ul>
+          </article>
+
+          <article class="widget-card glass-card">
+            <div class="widget-header">
+              <div>
+                <p class="eyebrow">Personalized Recommendations</p>
+                <h3>Suggested next steps</h3>
+              </div>
+            </div>
+            <ul class="list-stack">
+              <li>Use irrigation optimization before noon</li>
+              <li>Review pulse procurement offers</li>
+              <li>Connect with nearest FPO for financing</li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="module-section">
+          <div class="widget-header">
+            <div>
+              <p class="eyebrow">Role-Based Modules</p>
+              <h3>Modules tailored to your role</h3>
+            </div>
+          </div>
+          <div id="roleModulesGrid" class="role-modules-grid"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

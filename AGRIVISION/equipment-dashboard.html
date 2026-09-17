@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AGRIVISION | Equipment Owner Dashboard</title>
+    <link rel="stylesheet" href="equipment-dashboard.css" />
+    <link rel="stylesheet" href="dashboard-modules.css" />
+  </head>
+  <body data-role="equipment">
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand"><div class="brand-mark">🚜</div><div><h3>AGRIVISION</h3><p>Equipment Hub</p></div></div>
+        <nav><a class="active" href="#">Overview</a><a href="#">Add Equipment</a><a href="#">Bookings</a><a href="#">Availability</a><a href="#">Earnings</a></nav>
+      </aside>
+      <main class="main-content">
+        <header class="topbar">
+          <label class="search-box"><span>🔎</span><input type="text" placeholder="Search equipment, bookings" /></label>
+          <div class="topbar-actions"><button class="icon-btn" id="themeToggle" type="button">🌙</button><button class="icon-btn" type="button">🔔</button><div class="profile-menu"><div class="avatar">E</div><div><strong id="profileName">Owner</strong><p id="profileRole">Role</p></div></div></div>
+        </header>
+        <section class="hero-grid">
+          <article class="hero-card glass-card"><p class="eyebrow">Rental Control Center</p><h1>Keep your equipment busy and profitable</h1><p>Track demand and manage bookings seamlessly.</p><button class="btn btn-dark">Add New Equipment</button></article>
+          <article class="hero-card glass-card stats-card"><div><span>Booked Units</span><strong>12</strong></div><div><span>Available</span><strong>8</strong></div><div><span>Revenue</span><strong>₹1.2L</strong></div></article>
+        </section>
+        <section class="dashboard-grid">
+          <article class="card glass-card"><h3>Add Equipment</h3><p>Register tractors, harvesters, and sprayers.</p></article>
+          <article class="card glass-card"><h3>Manage Equipment</h3><p>Update status, pricing, and service notes.</p></article>
+          <article class="card glass-card"><h3>Booking Requests</h3><p>Approve new rental requests instantly.</p></article>
+          <article class="card glass-card"><h3>Equipment Availability</h3><p>View live slots and seasonal demand.</p></article>
+          <article class="card glass-card"><h3>Earnings Dashboard</h3><p>Track weekly and monthly revenue.</p></article>
+          <article class="card glass-card"><h3>Rental History</h3><p>Review past rentals and user patterns.</p></article>
+          <article class="card glass-card"><h3>Maintenance Reminders</h3><p>Schedule preventive service and repairs.</p></article>
+          <article class="card glass-card"><h3>Customer Reviews</h3><p>Monitor ratings and service feedback.</p></article>
+        </section>
+      </main>
+    </div>
+    <script src="dashboard-modules.js"></script>
+    <script src="equipment-dashboard.js"></script>
+  </body>
+</html>
